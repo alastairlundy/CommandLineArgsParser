@@ -9,6 +9,12 @@
         <Authors>AlastairLundy</Authors>
         <Copyright>Copyright (c) 2024 Alastair Lundy</Copyright>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <Version>0.1.0</Version>
+        <AssemblyVersion>0.1.0.0</AssemblyVersion>
+        <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+        <RepositoryUrl>https://github.com/alastairlundy/CommandLineArgsParser/</RepositoryUrl>
+        <PackageTags>commandline-parser parser commandline arguments cli</PackageTags>
+        <Description>Parse Command Line Arguments in C# cli applications into Option Names and Option Parameters</Description>
     </PropertyGroup>
 
 </Project>
