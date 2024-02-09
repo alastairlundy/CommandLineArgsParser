@@ -3,7 +3,6 @@
     <PropertyGroup>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>CommandLineArgsParser</Title>
         <Authors>AlastairLundy</Authors>
@@ -15,6 +14,7 @@
         <RepositoryUrl>https://github.com/alastairlundy/CommandLineArgsParser/</RepositoryUrl>
         <PackageTags>commandline-parser parser commandline arguments cli</PackageTags>
         <Description>Parse Command Line Arguments in C# cli applications into Option Names and Option Parameters</Description>
+        <TargetFramework>net6.0</TargetFramework>
     </PropertyGroup>
 
 </Project>

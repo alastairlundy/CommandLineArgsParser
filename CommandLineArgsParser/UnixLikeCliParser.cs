@@ -56,7 +56,7 @@ namespace CommandLineArgsParser
                 {
                     if (previousInputWasOptionName && inputType == CommandLineInputType.OptionParameter)
                     {
-                        commandLineInput.OptionArguments.Add(args[index]);
+                        commandLineInput.OptionArguments?.Add(args[index]);
                     }
                     else
                     {

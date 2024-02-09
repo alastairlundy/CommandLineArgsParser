@@ -27,17 +27,18 @@ namespace CommandLineArgsParser
     public class CommandLineInput
     {
         public CommandLineInput()
-        {
-            
+        { 
+            OptionName = "";
+            OptionArguments = new List<string>();
         }
         
-        public CommandLineInput(string optionName, List<string> optionArguments)
+        public CommandLineInput(string optionName, List<string>? optionArguments)
         {
             OptionName = optionName;
             OptionArguments = optionArguments;
         }
 
         public string OptionName { get; set; }
-        public List<string> OptionArguments { get; set; }
+        public List<string>? OptionArguments { get; set; }
     }
 }
