@@ -24,8 +24,17 @@
 
 namespace CommandLineArgsParser
 {
+    /// <summary>
+    /// A class for parsing CLI Arguments in the style of Unix Like programs or tools.
+    /// </summary>
     public class UnixLikeCliParser
     {
+        /// <summary>
+        /// Parse CLI Input String Array args and return a more helpful representation of CLI Inputs.
+        /// NOTE: This parses inputs in the style of Unix Like CLIs. If you are using a different style of CLI parsing then please use a different class.
+        /// </summary>
+        /// <param name="args">The arguments your Console program has received that need parsing.</param>
+        /// <returns></returns>
         public static CommandLineInput[] ParseCliInputs(string[] args)
         {
             Dictionary<string, CommandLineInputType> categorizedOptions = GetInputTypes(args);
