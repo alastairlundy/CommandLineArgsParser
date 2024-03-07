@@ -7,8 +7,7 @@
     <list default="true" id="2b96f081-7498-4700-b255-66b43c97549d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommandLineArgsParser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommandLineArgsParser/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CommandLineArgsParser.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CommandLineArgsParser.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/CommandLineInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/CommandLineInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnixLikeCliParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnixLikeCliParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +17,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Enums/CommandLineInputType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/CommandLineInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnixLikeCliParser.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2c5s2cCaIZuSSQjE3X8UOJhW1gO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -35,6 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/alastair/Documents/GitHub/CommandLineArgsParser/README.md",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707412567635</updated>
       <workItem from="1707412568699" duration="10392000" />
+      <workItem from="1709825677104" duration="2215000" />
     </task>
     <servers />
   </component>

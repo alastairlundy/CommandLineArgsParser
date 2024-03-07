@@ -7,14 +7,30 @@
         <Title>CommandLineArgsParser</Title>
         <Authors>AlastairLundy</Authors>
         <Copyright>Copyright (c) 2024 Alastair Lundy</Copyright>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-        <Version>0.1.0</Version>
-        <AssemblyVersion>0.1.0.0</AssemblyVersion>
+        <Version>1.0.0-alpha.1</Version>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
         <RepositoryUrl>https://github.com/alastairlundy/CommandLineArgsParser/</RepositoryUrl>
         <PackageTags>commandline-parser parser commandline arguments cli</PackageTags>
         <Description>Parse Command Line Arguments in C# cli applications into Option Names and Option Parameters</Description>
         <TargetFramework>net6.0</TargetFramework>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENSE.md">
+            <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <PackagePath>LICENSE.md</PackagePath>
+        </None>
+
+        <None Include="..\README.md">
+            <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <PackagePath>README.md</PackagePath>
+        </None>
+    </ItemGroup>
 
 </Project>
